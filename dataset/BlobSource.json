@@ -1,6 +1,7 @@
 {
 	"name": "BlobSource",
 	"properties": {
+		"description": "This is a test blob",
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
