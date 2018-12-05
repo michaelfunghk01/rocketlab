@@ -1,0 +1,15 @@
+{
+	"name": "AzureDataLakeStore2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://marsdatalake08232108.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "c10d955a-5c86-42ea-97ff-a62073c4a92e",
+			"tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+			"subscriptionId": "80cfcb97-091d-4cbf-b8f3-344c817c05dc",
+			"resourceGroupName": "MarsDataLakeDemo",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIk1BUlNEQVRBRkFDVE9SWTA4MjMyMDE4XzZhNGYzZDZmLWU5ZmItNGI4Mi1iMDczLTE0ZTY5MmE5YjY1YiINCn0="
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "DataLakeDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore2",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureDataLakeStoreFile",
+		"typeProperties": {
+			"format": {
+				"type": "JsonFormat",
+				"filePattern": "setOfObjects"
+			},
+			"fileName": "",
+			"folderPath": "ReceiveFromBlob"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
