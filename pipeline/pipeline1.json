@@ -1,6 +1,7 @@
 {
 	"name": "pipeline1",
 	"properties": {
+		"description": "This is Thurs ",
 		"activities": [
 			{
 				"name": "Copy Data1",
