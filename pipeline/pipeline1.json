@@ -1,7 +1,7 @@
 {
 	"name": "pipeline1",
 	"properties": {
-		"description": "This is feature branch 2",
+		"description": "This is a demo push",
 		"activities": [
 			{
 				"name": "Copy Data1",
