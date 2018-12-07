@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "marsdatafactory08232018"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStore2_servicePrincipalKey": {
+			"value": ""
+		},
+		"BlobSource_properties_typeProperties_fileName": {
+			"value": "DemoCopy.json"
+		},
+		"BlobSource_properties_typeProperties_folderPath": {
+			"value": "datafactorymove"
+		},
+		"DataLakeDestination_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"DataLakeDestination_properties_typeProperties_folderPath": {
+			"value": "ReceiveFromBlob"
+		},
+		"AzureDataLakeStore2_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://marsdatalake08232108.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStore2_properties_typeProperties_servicePrincipalId": {
+			"value": "c10d955a-5c86-42ea-97ff-a62073c4a92e"
+		},
+		"AzureDataLakeStore2_properties_typeProperties_tenant": {
+			"value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+		},
+		"AzureDataLakeStore2_properties_typeProperties_subscriptionId": {
+			"value": "80cfcb97-091d-4cbf-b8f3-344c817c05dc"
+		},
+		"AzureDataLakeStore2_properties_typeProperties_resourceGroupName": {
+			"value": "MarsDataLakeDemo"
+		}
+	}
+}
